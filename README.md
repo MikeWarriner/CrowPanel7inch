@@ -21,5 +21,15 @@ To get started:
 
 Note down any errors in the process and fix them as you go.  If you find steps missing or broken please let me know!
 
+FAQ:
+
+1. Raspberry PI blocks /dev/ttyUSB0 in the default Ubuntu installations(!).  This is because of some Braille software that is installed by default.
+
+Remove it with the following:
+
+sudo apt remove brltty
+
+and after a reboot all works fine.
+
 
 
