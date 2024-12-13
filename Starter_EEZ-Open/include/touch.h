@@ -20,8 +20,11 @@
  #define TOUCH_GT911
  #define TOUCH_GT911_SCL 20//20
  #define TOUCH_GT911_SDA 19//19
- #define TOUCH_GT911_INT -1//-1
- #define TOUCH_GT911_RST -1//38
+ // Added these, thank you VSelitskiy
+ #define TOUCH_GT911_INT 10
+ #define TOUCH_GT911_RST 11
+//  #define TOUCH_GT911_INT -1//-1
+//  #define TOUCH_GT911_RST -1//38
  #define TOUCH_GT911_ROTATION ROTATION_NORMAL
  #define TOUCH_MAP_X1 800//480
  #define TOUCH_MAP_X2 0
